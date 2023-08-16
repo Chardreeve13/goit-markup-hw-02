@@ -8,10 +8,10 @@
         /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
-        list-style: none;
+        text-decoration: none;
 
 }
 .studio {
     color: var(--navyblue, #2E2F42);
-    list-style: none;
+    text-decoration: none;
 }
