@@ -1,4 +1,8 @@
-.web{
+< !DOCTYPE html>
+<html>
+<head>
+<style>
+.web {
 color: var(--iris, #ff0000);
 font-family: Raleway;
 font-size: 18px;
@@ -9,3 +13,8 @@ line-height: 21px;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
+</style>
+</head>
+<body>
+</body>
+</html>
