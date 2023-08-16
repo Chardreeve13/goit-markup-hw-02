@@ -10,3 +10,6 @@
         text-transform: uppercase;*/
 
 }
+.studio {
+    color: var(--navyblue, #2E2F42);
+}
