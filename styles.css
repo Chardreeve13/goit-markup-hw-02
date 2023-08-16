@@ -15,3 +15,6 @@
     color: var(--navyblue, #2E2F42);
     text-decoration: none;
 }
+.web a {
+text-decoration: none;
+}
