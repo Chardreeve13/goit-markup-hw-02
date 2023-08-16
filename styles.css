@@ -6,8 +6,9 @@
         font-weight: 800;
         line-height: 21px;
         /* 116.667% */
-        /*letter-spacing: 0.54px;
-        text-transform: uppercase;*/
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        list-style: none;
 
 }
 .studio {
