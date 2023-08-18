@@ -222,6 +222,6 @@ h3 {
  {
     width: 360px;
     height: 300px;
-    border: 1px solid var(--cornflower, #E7E9FC);
+    border: 1px solid var(--cornflower, #000000));
     background: var(--white, #FFF);
 }
