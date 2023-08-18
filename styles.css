@@ -56,7 +56,7 @@ text-decoration: none;
 .email:hover {
     color: tomato;
 }
-.tel {
+.tel:hover {
     color: tomato;
 }
 .hero-description {
