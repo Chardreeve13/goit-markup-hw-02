@@ -91,6 +91,7 @@ text-decoration: none;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
+    cursor:pointer;
 }
 .btn:hover {
     color:rgb(87, 236, 107);
