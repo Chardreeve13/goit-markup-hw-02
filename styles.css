@@ -20,7 +20,7 @@
 .web a {
 text-decoration: none;
 }
-.web:hover {
+.web a:hover {
     color:tomato;
 }
 .navstudio, .navport, .navcon {
