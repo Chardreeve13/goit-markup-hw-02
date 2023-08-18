@@ -128,7 +128,7 @@ p{
 }
 h3 {
     color: var(--navyblue, #2E2F42);
-        text-align: center;
+        text-align: left;
     
         /* Header 3 */
         font-family: Roboto;
