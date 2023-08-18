@@ -92,6 +92,9 @@ text-decoration: none;
     align-items: flex-start;
     gap: 10px;
 }
+.btn:hover {
+    color:teal;
+}
 .hero-strategy, .hero-puntuality, .hero-diligence, .hero-tech {
 color: var(--navyblue, #2E2F42);
 /* Header 3 */
