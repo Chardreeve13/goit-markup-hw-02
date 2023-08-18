@@ -33,6 +33,12 @@ text-decoration: none;
 .navstudio:hover {
     color: tomato;
 }
+.navport:hover {
+    color: tomato;
+}
+.navcon:hover {
+    color: tomato;
+}
  
 .email, .tel {
     color: var(--slate, #434455);
