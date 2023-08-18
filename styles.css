@@ -104,6 +104,8 @@ letter-spacing: 0.4px;
         text-transform: capitalize;
 }
 .image1, .image2, .image3 {
+width: 360px;
+height: 300px;
 border: 1px solid var(--cornflower, #E7E9FC);
 }
 p{
