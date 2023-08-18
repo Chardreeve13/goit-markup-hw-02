@@ -187,7 +187,7 @@ color: var(--slate, #434455);
 }
 .body-heading {
     color: var(--navyblue, #2E2F42);
-        text-align: center;
+        text-align: left;
     
         /* Header 2 */
         font-family: Roboto;
