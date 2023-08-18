@@ -25,3 +25,16 @@ text-decoration: none;
     text-decoration:none;
 }
 
+.navstudio {
+    color: var(--navyblue, #2E2F42);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+        text-decoration: none;
+}
