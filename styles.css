@@ -14,8 +14,14 @@
 .studio {
     color: var(--navyblue, #2E2F42); 
 }
+ .studio:hover {
+    color:tomato;
+ }
 .web a {
 text-decoration: none;
+}
+.web:hover {
+    color:tomato;
 }
 .navstudio, .navport, .navcon {
     color: var(--navyblue, #2E2F42);
