@@ -92,7 +92,7 @@ text-decoration: none;
 }
 
 .hero-description {
-    color: var(--white, #FFF);
+    color: var(--white, #000000);
         text-align: center;
     
         /* Header 1 */
