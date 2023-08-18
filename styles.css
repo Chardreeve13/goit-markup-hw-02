@@ -121,4 +121,8 @@ p{
         /* 150% */
         letter-spacing: 0.32px;
 }
- 
+.team-image1, .team-image2, .team-image3, .team-image4 {
+    width: 264px;
+    height: 260px;
+
+}
