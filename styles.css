@@ -93,7 +93,7 @@ text-decoration: none;
     gap: 10px;
 }
 .btn:hover {
-    color:teal;
+    color:rgb(87, 236, 107);
 }
 .hero-strategy, .hero-puntuality, .hero-diligence, .hero-tech {
 color: var(--navyblue, #2E2F42);
