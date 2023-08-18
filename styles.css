@@ -224,4 +224,5 @@ h3 {
     height: 300px;
     border: 1px solid var(--cornflower, #000000));
     background: var(--white, #FFF);
+    gap: 32px;
 }
