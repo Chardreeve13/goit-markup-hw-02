@@ -216,7 +216,10 @@ h3 {
     background: var(--ocean, #404BBF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
-.image-port1 {
+.image-port1, .image-port2, .image-port3,
+.image-port4, .image-port5, .image-port6,
+.image-port7, .image-port8, .image-port9,
+ {
     width: 360px;
     height: 300px;
     border: 1px solid var(--cornflower, #E7E9FC);
