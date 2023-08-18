@@ -165,7 +165,7 @@ h3 {
         letter-spacing: 0.4px;
 }
 .body-btn1, .body-btn2, .body-btn3, .body-btn4, .body-btn5 {
-    color: var(--white, #FFF);
+    color: var(--iris, #4D5AE5);
         text-align: center;
     
         /* Button Text */
@@ -175,6 +175,7 @@ h3 {
         font-weight: 500;
         line-height: 24px;
         /* 150% */
+        letter-spacing: 0.64px;
         border-radius: 4px;
         border: 1px solid var(--cornflower, #E7E9FC);
         background: var(--cloud, #F4F4FD);
