@@ -53,6 +53,12 @@ text-decoration: none;
         letter-spacing: 0.32px;
         text-decoration: none;
 }
+.email:hover {
+    color: tomato;
+}
+.tel {
+    color: tomato;
+}
 .hero-description {
     color: var(--white, #000000);
         text-align: left;
