@@ -93,7 +93,7 @@ text-decoration: none;
 
 .hero-description {
     color: var(--white, #000000);
-        text-align: center;
+        text-align: left;
     
         /* Header 1 */
         font-family: Roboto;
@@ -107,7 +107,7 @@ text-decoration: none;
 
 .btn {
     color: var(--white, #FFF);
-   
+    text-align: center;
         /* Button Text */
     font-family: Roboto;
     font-size: 16px;
@@ -122,5 +122,5 @@ text-decoration: none;
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
-    gap: 50px;
+    gap: 10px;
 }
