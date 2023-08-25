@@ -131,7 +131,7 @@ letter-spacing: 0.4px;
 }
 
 .body-header, 
-.teamheader {
+.team-header {
     color: var(--navyblue);
         text-align: left;
     
