@@ -49,7 +49,8 @@
         font-weight: 800;
         line-height: 21px;
         letter-spacing: 0.54px;
-        text-transform: uppercase;       
+        text-transform: uppercase;  
+        text-decoration: none;
 }
 .studio {
     color: var(--navyblue); 
@@ -57,13 +58,11 @@
  .studio:hover {
     color:var(--ocean);
  }
-.web a {
-text-decoration: none;
-}
+
 .web a:hover {
     color:var(--ocean);
 }
-.navstudio, .navport, .navcon {
+.nav-link {
     color: var(--navyblue);
         font-family: Roboto;
         font-size: 16px;
