@@ -143,7 +143,7 @@ letter-spacing: 0.4px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
-.image1, .image2, .image3 {
+.body-header-images-list {
 width: 360px;
 height: 300px;
 border: 1px solid var(--cornflower);
