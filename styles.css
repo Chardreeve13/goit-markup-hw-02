@@ -40,6 +40,9 @@
     --grey:#2e2f42;
     --dairy:#fcfcfc;
  }
+address{
+    font-style: normal;
+}
 
 .nav-logo-wrap{
     color: var(--iris);
@@ -55,11 +58,9 @@
 .studio {
     color: var(--navyblue); 
 }
- .studio:hover {
-    color:var(--ocean);
- }
 
-.web a:hover {
+.nav-logo-wrap a:hover,
+.studio:hover {
     color:var(--ocean);
 }
 .nav-link {
@@ -72,13 +73,7 @@
         letter-spacing: 0.32px;
         text-decoration: none;
 }
-.navstudio:hover {
-    color:var(--ocean);
-}
-.navport:hover {
-    color:var(--ocean);
-}
-.navcon:hover {
+.nav-link:hover {
     color:var(--ocean);
 }
  
