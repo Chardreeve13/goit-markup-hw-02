@@ -55,13 +55,13 @@
     color: var(--navyblue); 
 }
  .studio:hover {
-    color:tomato;
+    color:var(--ocean);
  }
 .web a {
 text-decoration: none;
 }
 .web a:hover {
-    color:tomato;
+    color:var(--ocean);
 }
 .navstudio, .navport, .navcon {
     color: var(--navyblue);
@@ -74,13 +74,13 @@ text-decoration: none;
         text-decoration: none;
 }
 .navstudio:hover {
-    color: tomato;
+    color:var(--ocean);
 }
 .navport:hover {
-    color: tomato;
+    color:var(--ocean);
 }
 .navcon:hover {
-    color: tomato;
+    color:var(--ocean);
 }
  
 .email, .tel {
@@ -94,10 +94,10 @@ text-decoration: none;
         text-decoration: none;
 }
 .email:hover {
-    color: tomato;
+    color:var(--ocean);
 }
 .tel:hover {
-    color: tomato;
+    color:var(--ocean);
 }
 .hero-description {
     color: var(--white);
