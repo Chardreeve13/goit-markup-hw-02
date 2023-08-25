@@ -119,9 +119,9 @@ address{
 .btn:hover {
     color:rgb(87, 236, 107);
 }
-.hero-strategy, .hero-puntuality, .hero-diligence, .hero-tech {
-color: var(--navyblue);
 
+.hero-features {
+color: var(--navyblue);
 font-family: Roboto;
 font-size: 20px;
 font-style: normal;
@@ -130,7 +130,8 @@ line-height: 24px;
 letter-spacing: 0.4px;
 }
 
-.body-header, .teamheader {
+.body-header, 
+.teamheader {
     color: var(--navyblue);
         text-align: left;
     
