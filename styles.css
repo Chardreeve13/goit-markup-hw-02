@@ -1,17 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    font-family: 'Roboto';
+ }
+
+ img {
+    display:block;
+    max-width: 100%;
+    height: auto;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ ul {
+    margin 0;
+    padding: 0;
+ }
+
+ :root {
+    --iris:#4d5ae5;
+    --navyblue:#2e2f42;
+    --ocean:#404bbf;
+    --white:#ffffff;
+    --slate:#434455;
+    --cornflower: #e7e9fc;
+    --cloud:#f4f4fd;
+    --green:#31d0aa;
+    --lightslate:#8e8f99;
+    --navybluemodal:#2e2f42;
+    --grey:#2e2f42;
+    --dairy:#fcfcfc;
+ }
 
 .web {
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
         font-family: Raleway;
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
         line-height: 21px;
-        /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;       
 }
 .studio {
-    color: var(--navyblue, #2E2F42); 
+    color: var(--navyblue); 
 }
  .studio:hover {
     color:tomato;
@@ -23,15 +64,12 @@ text-decoration: none;
     color:tomato;
 }
 .navstudio, .navport, .navcon {
-    color: var(--navyblue, #2E2F42);
-    
-        /* Body Medium */
+    color: var(--navyblue);
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
-        /* 150% */
         letter-spacing: 0.32px;
         text-decoration: none;
 }
@@ -46,15 +84,12 @@ text-decoration: none;
 }
  
 .email, .tel {
-    color: var(--slate, #434455);
-    
-        /* Body */
+    color: var(--slate);
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
-        /* 150% */
         letter-spacing: 0.32px;
         text-decoration: none;
 }
@@ -65,32 +100,27 @@ text-decoration: none;
     color: tomato;
 }
 .hero-description {
-    color: var(--white, #000000);
+    color: var(--white);
         text-align: left;
-    
-        /* Header 1 */
         font-family: Roboto;
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
         line-height: 60px;
-        /* 107.143% */
         letter-spacing: 1.12px;
 }
 
 .btn {
-    color: var(--white, #FFF);
+    color: var(--white);
     text-align: center;
-        /* Button Text */
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-        /* 150% */
     letter-spacing: 0.64px;
     border-radius: 4px;
-    background: var(--iris, #4D5AE5);
+    background: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-flex;
     padding: 16px 32px;
@@ -102,47 +132,42 @@ text-decoration: none;
     color:rgb(87, 236, 107);
 }
 .hero-strategy, .hero-puntuality, .hero-diligence, .hero-tech {
-color: var(--navyblue, #2E2F42);
-/* Header 3 */
+color: var(--navyblue);
+
 font-family: Roboto;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
-/* 120% */
 letter-spacing: 0.4px;
 }
 
 .body-header, .teamheader {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
         text-align: left;
     
-        /* Header 2 */
+        
         font-family: Roboto;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
         line-height: 40px;
-        /* 111.111% */
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
 .image1, .image2, .image3 {
 width: 360px;
 height: 300px;
-border: 1px solid var(--cornflower, #E7E9FC);
+border: 1px solid var(--cornflower);
 }
 p{
-    color: var(--slate, #434455);
-    
-        /* Body */
+    color: var(--slate);
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
         width: 264px;
-        /* 150% */
         letter-spacing: 0.32px;
 }
 .team-image1, .team-image2, .team-image3, .team-image4 {
@@ -151,68 +176,63 @@ p{
 
 }
 h3 {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
         text-align: left;
     
-        /* Header 3 */
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
-        /* 120% */
         letter-spacing: 0.4px;
 }
 .body-btn1, .body-btn2, .body-btn3, .body-btn4, .body-btn5 {
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
         text-align: center;
-    
-        /* Button Text */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
-        /* 150% */
         letter-spacing: 0.64px;
         border-radius: 4px;
-        border: 1px solid var(--cornflower, #E7E9FC);
-        background: var(--cloud, #F4F4FD);
+        border: 1px solid var(--cornflower);
+        background: var(--cloud);
         cursor: pointer;
 }
 .body-btn1:hover {
-    color: var(--white, #FFF);
+    color: var(--white);
     text-align: center;
     border-radius: 4px;
-    background: var(--ocean, #404BBF);
+    background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .body-btn2:hover {
-    color: var(--white, #FFF);
+    color: var(--white);
     text-align: center;
     border-radius: 4px;
-    background: var(--ocean, #404BBF);
+    background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .body-btn3:hover {
-    color: var(--white, #FFF);
+    color: var(--white);
     text-align: center;
     border-radius: 4px;
-    background: var(--ocean, #404BBF);
+    background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .body-btn4:hover {
-    color: var(--white, #FFF);
+    color: var(--white);
     text-align: center;
     border-radius: 4px;
-    background: var(--ocean, #404BBF);
+    background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .body-btn5:hover {
-    color: var(--white, #FFF);
+    color: var(--white);
     text-align: center;
     border-radius: 4px;
-    background: var(--ocean, #404BBF);
+    background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .image-port1, .image-port2, .image-port3,
@@ -221,7 +241,7 @@ h3 {
  {
     width: 360px;
     height: 300px;
-    border: 1px solid var(--cornflower, #000000));
-    background: var(--white, #FFF);
+    border: 1px solid var(--cornflower);
+    background: var(--white);
     gap: 32px;
 }
