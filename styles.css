@@ -40,6 +40,7 @@
     --grey:#2e2f42;
     --dairy:#fcfcfc;
  }
+
 address{
     font-style: normal;
 }
@@ -55,6 +56,7 @@ address{
         text-transform: uppercase;  
         text-decoration: none;
 }
+
 .studio {
     color: var(--navyblue); 
 }
@@ -69,6 +71,7 @@ address{
         letter-spacing: 0.32px;
         text-decoration: none;
 }
+
 .nav-logo-wrap a:hover,
 .studio:hover,
 .nav-link:hover {
@@ -84,6 +87,7 @@ address{
         letter-spacing: 0.32px;
         text-decoration: none;
 }
+
 .address-link:hover {
     color:var(--ocean);
 }
@@ -116,6 +120,7 @@ address{
     gap: 10px;
     cursor:pointer;
 }
+
 .btn:hover {
     color:rgb(87, 236, 107);
 }
@@ -134,8 +139,6 @@ letter-spacing: 0.4px;
 .team-header {
     color: var(--navyblue);
         text-align: left;
-    
-        
         font-family: Roboto;
         font-size: 36px;
         font-style: normal;
@@ -143,11 +146,13 @@ letter-spacing: 0.4px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
+
 .body-header-images-list {
 width: 360px;
 height: 300px;
 border: 1px solid var(--cornflower);
 }
+
 p{
     color: var(--slate);
         font-family: Roboto;
@@ -157,23 +162,24 @@ p{
         width: 264px;
         letter-spacing: 0.32px;
 }
-.team-image1, .team-image2, .team-image3, .team-image4 {
+
+.team-header-images {
     width: 264px;
     height: 260px;
-
 }
+
 h3 {
     color: var(--navyblue);
         text-align: left;
-    
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
+
 }
-.body-btn1, .body-btn2, .body-btn3, .body-btn4, .body-btn5 {
+.button-links {
     color: var(--iris);
         text-align: center;
         font-family: Roboto;
