@@ -193,44 +193,15 @@ h3 {
         background: var(--cloud);
         cursor: pointer;
 }
-.body-btn1:hover {
+.button-links:hover {
     color: var(--white);
     text-align: center;
     border-radius: 4px;
     background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
-.body-btn2:hover {
-    color: var(--white);
-    text-align: center;
-    border-radius: 4px;
-    background: var(--ocean);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-.body-btn3:hover {
-    color: var(--white);
-    text-align: center;
-    border-radius: 4px;
-    background: var(--ocean);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-.body-btn4:hover {
-    color: var(--white);
-    text-align: center;
-    border-radius: 4px;
-    background: var(--ocean);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-.body-btn5:hover {
-    color: var(--white);
-    text-align: center;
-    border-radius: 4px;
-    background: var(--ocean);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
-.image-port1, .image-port2, .image-port3,
-.image-port4, .image-port5, .image-port6,
-.image-port7, .image-port8, .image-port9,
+
+.image-thumbnails
  {
     width: 360px;
     height: 300px;
