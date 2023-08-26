@@ -93,6 +93,7 @@ address{
 }
 
 .hero-description {
+    background-color:var(--navyblue); 
     color: var(--white);
         text-align: left;
         font-family: Roboto;
