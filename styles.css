@@ -192,11 +192,10 @@ border: 1px solid var(--cornflower);
         line-height: 24px;
         letter-spacing: 0.4px;
 }
-
+/* 
 .button-links {
     color: var(--iris);
         text-align: center;
-        /* font-family: Roboto; */
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -222,4 +221,4 @@ border: 1px solid var(--cornflower);
     border: 1px solid var(--cornflower);
     background: var(--white);
     gap: 32px;
-}
+} */
