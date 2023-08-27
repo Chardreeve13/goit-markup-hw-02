@@ -60,6 +60,7 @@ address{
 text-decoration: none;
 }
 
+/* Declaring a style link global */
 a{
     text-decoration:none;
 }
@@ -98,7 +99,7 @@ a{
     color:var(--ocean);
 }
 
-.hero-description {
+.hero-title{
     background-color:var(--navyblue); 
         color: var(--white);
         text-align: left;
