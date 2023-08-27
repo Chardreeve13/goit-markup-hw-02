@@ -177,26 +177,26 @@ border: 1px solid var(--cornflower);
         letter-spacing: 0.32px;
 }
 
-.team-header-images {
+.team-list-images {
     width: 264px;
     height: 260px;
 }
-/* 
-h3 {
+
+.team-list-item-title {
     color: var(--navyblue);
         text-align: left;
-        font-family: Roboto;
+        /* font-family: Roboto; */
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
-} */
+}
 
 .button-links {
     color: var(--iris);
         text-align: center;
-        font-family: Roboto;
+        /* font-family: Roboto; */
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
