@@ -79,7 +79,6 @@ a{
         text-decoration: none;
 }
 
-.nav-logo-wrap a:hover,
 .studio:hover,
 .nav-link:hover {
     color:var(--ocean);
