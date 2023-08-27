@@ -193,3 +193,17 @@ border: 1px solid var(--cornflower);
         letter-spacing: 0.4px;
 }
 /* CSS for portfolio.html below */
+.menu-list-button{
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--cloud, #F4F4FD);
+}
+.button-links{
+    color: var(--iris, #4D5AE5);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.64px;
+}
