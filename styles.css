@@ -65,9 +65,9 @@ address{
         text-transform: uppercase;  
 }
 
-.nav-logo-link{
+/* .nav-logo-link{
 text-decoration: none;
-}
+} */
 
 /* Declaring a style link global */
 a{
@@ -156,8 +156,8 @@ line-height: 24px;
 letter-spacing: 0.4px;
 }
 
-.body-header, 
-.team-header {
+.service-title, 
+.team-title {
     color: var(--navyblue);
         text-align: left;
         font-size: 36px;
@@ -167,7 +167,7 @@ letter-spacing: 0.4px;
         text-transform: capitalize;
 }
 
-.body-header-images-list {
+.services-list-item {
 width: 360px;
 height: 300px;
 border: 1px solid var(--cornflower);
