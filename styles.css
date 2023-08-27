@@ -60,6 +60,10 @@ address{
 text-decoration: none;
 }
 
+a{
+    text-decoration:none;
+}
+
 .studio {
     color: var(--navyblue); 
 }
