@@ -117,7 +117,7 @@ button {
     cursor: pointer;
     outline: none;
 }
-.btn {
+.hero-button{
     color: var(--white);
     text-align: center;
     font-size: 16px;
@@ -135,7 +135,7 @@ button {
     cursor:pointer;
 }
 
-.btn:hover {
+.hero-button:hover {
     color:var(--ocean);
 }
 
@@ -181,7 +181,7 @@ border: 1px solid var(--cornflower);
     width: 264px;
     height: 260px;
 }
-
+/* 
 h3 {
     color: var(--navyblue);
         text-align: left;
@@ -191,8 +191,8 @@ h3 {
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
+} */
 
-}
 .button-links {
     color: var(--iris);
         text-align: center;
