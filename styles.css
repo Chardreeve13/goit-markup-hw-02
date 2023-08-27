@@ -44,8 +44,17 @@
 address{
     font-style: normal;
 }
-
 .nav-logo-wrap{
+    color: var(--iris);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.footer-logo{
     color: var(--iris);
         font-family: Raleway;
         font-size: 18px;
