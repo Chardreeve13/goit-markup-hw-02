@@ -65,7 +65,7 @@ address{
         text-transform: uppercase;  
 }
 
-.nav-logo{
+.nav-logo-link{
 text-decoration: none;
 }
 
@@ -88,6 +88,8 @@ a{
         text-decoration: none;
 }
 
+.nav-logo-link,
+.footer-logo-link,
 .studio:hover,
 .nav-link:hover {
     color:var(--ocean);
