@@ -98,6 +98,14 @@ a{
     color:var(--ocean);
 }
 
+/* Reset default button */
+button{
+    border:unset;
+    font-family: inherit;
+    cursor:pointer;
+    outline:none;
+}
+
 .hero-description {
     background-color:var(--navyblue); 
         color: var(--white);
@@ -112,7 +120,6 @@ a{
 .btn {
     color: var(--white);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
