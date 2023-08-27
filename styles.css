@@ -194,6 +194,7 @@ border: 1px solid var(--cornflower);
 }
 /* CSS for portfolio.html below */
 .menu-list-button{
+    display: block;
     border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--cloud, #F4F4FD);
 }
@@ -206,4 +207,8 @@ border: 1px solid var(--cornflower);
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.64px;
+}
+.button-links:hover{
+    color:var(--white);
+    background:var(--ocean);
 }
