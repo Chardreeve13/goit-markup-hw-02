@@ -130,7 +130,7 @@ button {
     line-height: 24px;
     letter-spacing: 0.64px;
     border-radius: 4px;
-    background: var(--ocean);
+    background: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-flex;
     padding: 16px 32px;
@@ -141,6 +141,7 @@ button {
 
 .hero-button:hover {
     color:var(--white);
+    background: var(--ocean);
 }
 
 .features-item-title {
@@ -195,8 +196,8 @@ border: 1px solid var(--cornflower);
 /* CSS for portfolio.html below */
 .menu-list-button{
     display: block;
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--cloud, #F4F4FD);
+    border: 1px solid var(--cornflower);
+    background: var(--cloud,);
 }
 .button-links{
     color: var(--iris, #4D5AE5);
