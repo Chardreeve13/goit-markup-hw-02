@@ -198,6 +198,25 @@ border: 1px solid var(--cornflower);
         line-height: 24px;
         letter-spacing: 0.4px;
 }
+.team-item-description{
+    color: var(--slate);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+.footer-description{
+    color: var(--cloud);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
 /* CSS for portfolio.html below */
 .menu-list-button{
     display: block;
@@ -217,4 +236,23 @@ border: 1px solid var(--cornflower);
 .button-links:hover{
     color:var(--white);
     background:var(--ocean);
+}
+
+.online-app-list-title{
+    color: var(--navyblue);
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+}
+.online-app-description{
+    color: var(--slate);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
 }
