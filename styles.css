@@ -44,7 +44,7 @@
 address{
     font-style: normal;
 }
-.nav-logo-wrap{
+.nav-logo-link{
     color: var(--iris);
         font-family: Raleway;
         font-size: 18px;
@@ -54,26 +54,21 @@ address{
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
-.footer-logo{
-    color: var(--iris);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;  
-}
 
 /* Declaring a style link global */
 a{
-    text-decoration:none;
+    text-decoration: none;
+}
+a:hover{
+    color: var(--ocean);
 }
 
 .studio {
     color: var(--navyblue); 
 }
-
+.studio:hover{
+    color: var(--ocean);
+}
 .nav-link {
     color: var(--navyblue);
         font-size: 16px;
@@ -83,15 +78,6 @@ a{
         letter-spacing: 0.32px;
         text-decoration: none;
 }
-
-.nav-logo-link,
-.nav-logo-wrap,
-.footer-logo-link,
-.studio:hover,
-.nav-link:hover {
-    color:var(--ocean);
-}
- 
 .address-link {
     color: var(--slate);
         font-size: 16px;
@@ -200,7 +186,7 @@ border: 1px solid var(--cornflower);
 }
 .team-item-description{
     color: var(--slate);
-        text-align: center;
+        text-align: auto;
         /* font-family: Roboto; */
         font-size: 16px;
         font-style: normal;
@@ -208,6 +194,36 @@ border: 1px solid var(--cornflower);
         line-height: 24px;
         letter-spacing: 0.32px;
 }
+footer{
+    background: var(--navyblue);
+    width: 1440px;
+    height: 312px;
+}
+.footer-logo-link {
+    color: var(--iris);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.footer-studio{
+    color: var(--cloud);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.footer-studio:hover{
+    color: var(--ocean);
+}
+
 .footer-description{
     color: var(--cloud);
         /* font-family: Roboto; */
