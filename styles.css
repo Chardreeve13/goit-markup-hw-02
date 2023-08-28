@@ -72,9 +72,12 @@ a:hover{
 .studio:hover{
     color: var(--ocean);
 }
-.nav-list{
+.nav-header{
+    display:inline-block;
     border-bottom: 1px solid var(--cornflower);
     background: var(--white);
+    width: 1440px;
+    height: 72px;
 }
 .nav-link {
     color: var(--navyblue);
