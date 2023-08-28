@@ -197,10 +197,10 @@ border: 1px solid var(--cornflower);
 .menu-list-button{
     display: block;
     border: 1px solid var(--cornflower);
-    background: var(--cloud,);
+    background: var(--cloud);
 }
 .button-links{
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
         text-align: center;
         font-family: Roboto;
         font-size: 16px;
