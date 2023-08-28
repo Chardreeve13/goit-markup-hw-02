@@ -44,6 +44,7 @@
 address{
     font-style: normal;
 }
+
 .nav-logo-link{
     color: var(--iris);
         font-family: Raleway;
@@ -59,6 +60,7 @@ address{
 a{
     text-decoration: none;
 }
+
 a:hover{
     color: var(--ocean);
 }
@@ -66,9 +68,11 @@ a:hover{
 .studio {
     color: var(--navyblue); 
 }
+
 .studio:hover{
     color: var(--ocean);
 }
+
 .nav-link {
     color: var(--navyblue);
         font-size: 16px;
@@ -78,6 +82,7 @@ a:hover{
         letter-spacing: 0.32px;
         text-decoration: none;
 }
+
 .address-link {
     color: var(--slate);
         font-size: 16px;
@@ -90,6 +95,7 @@ a:hover{
 .address-link:hover {
     color:var(--ocean);
 }
+
 .hero{
 background-color: var(--navyblue);
 width:1440px;
@@ -112,6 +118,7 @@ button {
     cursor: pointer;
     outline: none;
 }
+
 .hero-button{
     color: var(--white);
     text-align: center;
@@ -147,27 +154,27 @@ letter-spacing: 0.4px;
 .service-title, 
 .team-title {
     color: var(--navyblue);
-        text-align: left;
-        font-size: 36px;
-        font-style: normal;
-        line-height: 40px;
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
+    text-align: left;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .services-list-item {
-width: 360px;
-height: 300px;
-border: 1px solid var(--cornflower);
+    width: 360px;
+    height: 300px;
+    border: 1px solid var(--cornflower);
 }
 
 .features-item-description{
     color: var(--slate);
-        font-size: 16px;
-        font-style: normal;
-        line-height: 24px;
-        width: 264px;
-        letter-spacing: 0.32px;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    width: 264px;
+    letter-spacing: 0.32px;
 }
 
 .team-list-images {
@@ -177,27 +184,30 @@ border: 1px solid var(--cornflower);
 
 .team-list-item-title {
     color: var(--navyblue);
-        text-align: left;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.4px;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
+
 .team-item-description{
     color: var(--slate);
-        text-align: auto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+    text-align: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
+
 footer{
     background: var(--navyblue);
     width: 1440px;
     height: 312px;
 }
+
 .footer-logo-link {
     color: var(--iris);
     font-family: Raleway;
@@ -209,6 +219,7 @@ footer{
     text-transform: uppercase;
     text-decoration: none;
 }
+
 .footer-studio{
     color: var(--cloud);
         font-family: Raleway;
@@ -219,6 +230,7 @@ footer{
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
+
 .footer-studio:hover{
     color: var(--ocean);
 }
@@ -237,9 +249,11 @@ footer{
     border: 1px solid var(--cornflower);
     background: var(--cloud);
 }
+
 .menu-list{
     display:inline-block;
 }
+
 .button-links{
     color: var(--iris);
         text-align: center;
@@ -249,6 +263,7 @@ footer{
         line-height: 24px;
         letter-spacing: 0.64px;
 }
+
 .button-links:hover{
     color:var(--white);
     background:var(--ocean);
@@ -262,6 +277,7 @@ footer{
         line-height: 24px;
         letter-spacing: 0.4px;
 }
+
 .online-app-description{
     color: var(--slate);
         font-size: 16px;
