@@ -85,6 +85,7 @@ a{
 }
 
 .nav-logo-link,
+.nav-logo-wrap,
 .footer-logo-link,
 .studio:hover,
 .nav-link:hover {
@@ -103,9 +104,13 @@ a{
 .address-link:hover {
     color:var(--ocean);
 }
+.hero{
+background-color: var(--navyblue);
+width:1440px;
+height: 600px;
+}
 
 .hero-title{
-    background-color:var(--navyblue); 
         color: var(--white);
         text-align: left;
         font-size: 56px;
