@@ -72,12 +72,12 @@ a:hover{
 .studio:hover{
     color: var(--ocean);
 }
-.nav-header{
+/* .nav-header{
     display:inline-block;
     border-bottom: 1px solid var(--cornflower);
     width: 1440px;
     height: 72px;
-}
+} */
 .nav-link {
     color: var(--navyblue);
         font-size: 16px;
@@ -103,8 +103,8 @@ a:hover{
 
 .hero{
 background-color: var(--navyblue);
-width:1440px;
-height: 600px;
+/* width:1440px;
+height: 600px; */
 }
 
 .hero-title{
@@ -156,7 +156,7 @@ line-height: 24px;
 letter-spacing: 0.4px;
 }
 
-.service-title, 
+.services-title, 
 .team-title {
     color: var(--navyblue);
     text-align: left;
@@ -199,7 +199,7 @@ letter-spacing: 0.4px;
 
 .team-item-description{
     color: var(--slate);
-    text-align: auto;
+    /* text-align: auto; */
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -207,10 +207,10 @@ letter-spacing: 0.4px;
     letter-spacing: 0.32px;
 }
 
-footer{
+.footer{
     background: var(--navyblue);
-    width: 1440px;
-    height: 312px;
+    /* width: 1440px;
+    height: 312px; */
 }
 
 .footer-logo-link {
@@ -249,17 +249,17 @@ footer{
         letter-spacing: 0.32px;
 }
 /* CSS for portfolio.html below */
-.menu-list-button{
+/* .menu-list-button{
     display: block;
     border: 1px solid var(--cornflower);
     background: var(--cloud);
-}
+} */
 
 .menu-list{
     display:inline-block;
 }
 
-.button-links{
+.menu-item-button{
     color: var(--iris);
         text-align: center;
         font-size: 16px;
@@ -267,11 +267,18 @@ footer{
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.64px;
+        display:block;
+        padding: 12px 24px;
+        border-radius: 4px;
+        background-color:var(--cloud);
+        border: 1px solid var(--cornflower);
+       
 }
 
-.button-links:hover{
+.menu-item-button:hover{
     color:var(--white);
     background:var(--ocean);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .online-app-list-title{
